@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Robot Learning | MIT IAP 2025</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        .hero-pattern {
+            background-color: #f8f9fa;
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%239C92AC' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-gray-900 text-white">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <span class="text-xl font-bold">MIT IAP 2025 / 6.S186</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#overview" class="hover:text-gray-300">Overview</a>
+                <a href="#schedule" class="hover:text-gray-300">Schedule</a>
+                <a href="#project" class="hover:text-gray-300">Project</a>
+                <a href="#instructors" class="hover:text-gray-300">Instructors</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-pattern">
+        <div class="container mx-auto px-6 py-24">
+            <div class="text-center">
+                <h1 class="text-5xl font-bold text-gray-900 mb-4">🤖 Modern Robot Learning 🦾</h1>
+                <h2 class="text-2xl text-gray-600 mb-8">Hands-on Tutorial</h2>
+                <p class="text-gray-600 text-lg mb-8 max-w-3xl mx-auto">This course provides a practical introduction to training robots using state-of-the-art machine learning techniques. Key topics include data collection for robotics, 
+                    machine learning methods, environment modeling in simulation, and Real2Sim/Sim2Real techniques. Students will teleoperate a simulated robot in augmented reality via the Apple Vision Pro, and train a machine learning model to autonomously complete a task of their own design. The course culminates in a competition, judged on both robot performance and creativity of the chosen task. A solid working knowledge of Python and a basic understanding of machine learning are prerequisites. The course focuses entirely on the project, with no additional assignments.
+                </p>
+                <a href="https://studentformsandpetitions.mit.edu/" 
+                   class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+                    Register Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Overview</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Robot Data Collection</h3>
+                    <p class="text-gray-600">People say robotics is all about data, but how do we collect it? Learn and experience how the community is collecting data for robots.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Policy Training</h3>
+                    <p class="text-gray-600">With the data collected, how do we train a policy to perform the task autonomusly? Learn various policy training methods commonly used in the community.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Simulation for Robotics</h3>
+                    <p class="text-gray-600">What role does simulation play in robotics? Learn how to model your environment in simulation and transfer your learned policy to the real world.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-4">Course Schedule</h2>
+            <p class="text-center text-gray-600 mb-8">Classes held in Stata 32-124 / Office hours held in 45-322</p>
+            <div class="max-w-3xl mx-auto space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">January 10 (Friday): Course Overview</h3>
+                    <p class="text-gray-600 mb-2">Robot Learning Basics — Manipulation Focused</p>
+                    <ul class="text-gray-600 list-disc ml-6">
+                        <li>Paradigm Shift in Robotics: Learning from Data</li>
+                        <li>Data Collection Methods</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">January 13 (Monday): Data Collection & Policy Training</h3>
+                    <ul class="text-gray-600 list-disc ml-6">
+                        <li>Collecting Robot Data in Real-World </li>
+                        <li>Robot Teleoperation </li>
+                        <li>Popular Policy Training Techniques</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">January 15 (Wednesday): Alternative Data Sources for Robotics</h3>
+                    <ul class="text-gray-600 list-disc ml-6">
+                        <li>Real2Sim and Sim2Real, BC + RL Finetuning Methods</li>
+                        <li>Robot Data Collection in Virtual Reality</li>
+                        <li>Wearable Devices and Human Videos</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">January 17 (Friday): Project Overview</h3>
+                    <ul class="text-gray-600 list-disc ml-6">
+                        <li>Hands-on Tutorial Guidelines</li>
+                        <li>Robot Data Collection in Virtual Reality</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- Project Details Section -->
+    <section id="project" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Hands-on Tutorial</h2>
+            <div class="max-w-2xl mx-auto">
+                <p class="text-center text-gray-600 mb-8 max-w-xl mx-auto">After the lectures, you'll have the opportunity to apply what you've learned through hands-on experimentation. The remainder of the IAP course following January 17 will consist of office hours and independent project work. We will announce the detailed office hours schedule soon.</p>
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0">
+                                <svg class="h-6 w-6 text-blue-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold">Data Collection</h3>
+                                <p class="text-gray-600">Gather robot manipulation data through teleoperation with virtual reality interfaces (like <a href="https://www.apple.com/apple-vision-pro/" class="text-blue-500 hover:underline">Apple Vision Pro</a>)</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0">
+                                <svg class="h-6 w-6 text-blue-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold">Policy Training</h3>
+                                <p class="text-gray-600">Train robot policies using behavioral cloning and reinforcement learning techniques</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0">
+                                <svg class="h-6 w-6 text-blue-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold">Simulation Evaluation</h3>
+                                <p class="text-gray-600">Test and evaluate trained policies in realistic simulation environments</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0">
+                                <svg class="h-6 w-6 text-blue-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold">Sim2Real Transfer</h3>
+                                <p class="text-gray-600">Optional opportunity to deploy trained policies on real robot hardware</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructors Section -->
+    <section id="instructors" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Course Instructors</h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-sm flex items-center space-x-4">
+                    <img src="/images/haoshu.jpg" alt="Instructor" class="rounded-full w-24 h-24">
+                    <div>
+                        <h3 class="text-xl font-semibold">Haoshu Fang</h3>
+                        <p class="text-gray-600">MIT CSAIL, Post-Doc</p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm flex items-center space-x-4">
+                    <img src="/images/younghyo.jpg" alt="Instructor" class="rounded-full w-24 h-24">
+                    <div>
+                        <h3 class="text-xl font-semibold">Younghyo Park</h3>
+                        <p class="text-gray-600">MIT CSAIL, PhD Student</p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm flex items-center space-x-4">
+                    <img src="/images/jagdeep.jpg" alt="Instructor" class="rounded-full w-24 h-24">
+                    <div>
+                        <h3 class="text-xl font-semibold">Jagdeep Bhatia</h3>
+                        <p class="text-gray-600">MIT CSAIL, MEng Student</p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm flex items-center space-x-4">
+                    <img src="/images/lars.jpg" alt="Instructor" class="rounded-full w-24 h-24">
+                    <div>
+                        <h3 class="text-xl font-semibold">Lars Ankile</h3>
+                        <p class="text-gray-600">MIT CSAIL, Visiting Researcher</p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm flex items-center space-x-4">
+                    <img src="/images/pulkit.jpg" alt="Instructor" class="rounded-full w-24 h-24">
+                    <div>
+                        <h3 class="text-xl font-semibold">Prof. Pulkit Agrawal</h3>
+                        <p class="text-gray-600">MIT CSAIL</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold">MIT IAP 2025 / 6.S186</h3>
+                    <p class="text-gray-400">Modern Robot Learning</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white">Contact</a>
+                    <a href="#" class="text-gray-400 hover:text-white">FAQ</a>
+                    <a href="#" class="text-gray-400 hover:text-white">Resources</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 MIT Independent Activities Period. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

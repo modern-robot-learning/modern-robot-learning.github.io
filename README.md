@@ -1,1 +1,1 @@
-# modern-robot-learning.github.io
+# modern-robot-learning
